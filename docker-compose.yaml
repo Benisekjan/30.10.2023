@@ -22,7 +22,7 @@ services:
     volumes:
       - "./:/app:z"
       - "/etc/localtime:/etc/localtime:ro"
-    command: gunicorn app.wsgi:application --bind 0.0.0.0:8081
+    command: gunicorn run.wsgi:application --bind 0.0.0.0:8081
     depends_on:
       - db
     environment:
