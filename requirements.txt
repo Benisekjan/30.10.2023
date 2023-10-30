@@ -18,6 +18,7 @@ Flask-Migrate==4.0.5
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==1.2.1
 greenlet==3.0.1
+gunicorn==21.2.0
 idna==3.4
 importlib-resources==6.1.0
 itsdangerous==2.1.2
@@ -36,6 +37,7 @@ packaging==23.2
 prison==0.2.1
 Pygments==2.16.1
 PyJWT==2.8.0
+PyMySQL==1.1.0
 python-dateutil==2.8.2
 pytz==2023.3.post1
 PyYAML==6.0.1
